@@ -17,7 +17,7 @@
     <input type="button" onclick="checkGuess()" value="Check the guess">
 </form>
 
-<p id="result">This text will be replaced </p>
+<p id="result">The results will be displayed here </p>
 <script>
    var correct=0
     var wrong=0  
@@ -36,6 +36,7 @@ function checkGuess(){
         alert('Wrong President')
         out.innerHTML = "correct trace "+correct + " Wrong trace "+ wrong
     }
+
 
 }
 </script>
@@ -66,6 +67,7 @@ function swapImage()
        {
           
           document.getElementById("bird_img").src="merlin.jpg"
+          useImage=1
           break
        }
     }
